@@ -9,7 +9,7 @@ trigger:
 pool:
   name: test
   demands:
-   - agent.name -equals test-az1
+   - agent.name -equals frdy-tstagent2
 strategy:
   matrix:
     Python27:
